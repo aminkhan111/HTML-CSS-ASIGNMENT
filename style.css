@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Tektur', cursive;
+}
+
+.container {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 119px;
+    margin-top: 00px;
+  }
+
+  .navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 76;
+  }
+.grow-list{
+    flex-grow: 1;
+    padding-left: 62px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    /* list-style: none; */
+    gap: 36px; 
+    line-height: 24px;
+}
+
+.list a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 24px;
+    color:rgb(102, 211, 250);
+    list-style: none;
+    text-decoration: none;
+}
+.list a:hover{
+    color: #d4290bed;
+}
+.btn1{
+    background-color: #81d4f8;
+    padding: 14px 28px;
+    border-radius: 14px;
+    border:none;
+    font-style: normal;
+    color:white;
+    font-size: 19px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+.banner-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 45px;
+
+}
+.heading-text{
+    font-weight: 600;
+  font-size: 64px;
+  margin-top: 70px;
+  line-height: 74px;
+  font-weight: 600;
+  color: #3c2f60
+    
+}
+.heading-text span {
+    color: #5955b3;
+  }
+  .discription{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  color: #828282;
+  margin-top: 28px;
+  }
+.btn2{
+    background-color: #81d4f8;
+    padding: 14px 28px;
+    border-radius: 14px;
+    border:none;
+    font-style: normal;
+    color:white;
+    font-size: 19px;
+    line-height: 24px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.btn2:hover{
+    color: #d4290bed;
+   background-color: #27e634;
+}
+.btn1:hover{
+    color: #d4290bed;
+    background-color: #1ef113;
+}
+p span{
+    color:#5955b3 ;
+    font-size: 20px;
+
+}
+.bmg{
+    margin-top: 0px;
+    
+}
+.img{
+    height:  70px;
+}
+.notice{
+
+
+}
+
